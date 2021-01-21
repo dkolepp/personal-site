@@ -52,13 +52,29 @@ enableEmoji = true
         name = "Tags"
         url = "/tags/"
         title = ""
-        weight = 2
+        weight = 5
       [[languages.en.menu.main]]
         identifier = "categories"
         pre = ""
         post = ""
         name = "Categories"
         url = "/categories/"
+        title = ""
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "woodworking"
+        pre = ""
+        post = ""
+        name = "Woodworking"
+        url = "/categories/woodworking"
+        title = ""
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "snapmaker"
+        pre = ""
+        post = ""
+        name = "Snapmaker"
+        url = "/categories/snapmaker"
         title = ""
         weight = 3
       [[languages.en.menu.main]]
@@ -68,7 +84,7 @@ enableEmoji = true
         name = "About"
         url = "/about/"
         title = ""
-        weight = 5
+        weight = 6
       [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
@@ -131,13 +147,13 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = "Technologist | Maker | Dad"
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "My journey with "
+          subtitle = "I enjoy learning, especially technology, science, math, and woodworking."
           # whether to use typeit animation for subtitle
           typeit = false
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = "This is my disclaimer."
+          disclaimer = "This blog documents my attempts to continually improve and learn at the above."
         # Home page posts
         [languages.en.params.home.posts]
           enable = true
@@ -286,7 +302,7 @@ enableEmoji = true
 
   # Comment config
   [params.comment]
-    enable = true
+    enable = false
     [params.comment.remark42]
       enable = true
       host = "https://comments.upagge.ru"
@@ -326,7 +342,6 @@ enableEmoji = true
       # "assets/data/emoji/"
       emoji = ""
     # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
-    # Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
     [params.comment.facebook]
       enable = false
       width = "100%"
@@ -347,7 +362,6 @@ enableEmoji = true
     [params.comment.commento]
       enable = false
     # Utterances comment config (https://utteranc.es/)
-    # Utterances comment 评论系统设置 (https://utteranc.es/)
     [params.comment.utterances]
       enable = false
       # owner/repo
@@ -357,7 +371,6 @@ enableEmoji = true
       lightTheme = "github-light"
       darkTheme = "github-dark"
   # Page config
-  # 文章页面配置
   [params.page]
     # whether to hide a page from home page
     hiddenFromHomePage = false
