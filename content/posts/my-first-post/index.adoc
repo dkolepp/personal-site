@@ -1,10 +1,10 @@
 ---
-title: "Starting new Adventures"
+title: "Creating a Personal Blog with Hugo"
 date: 2021-01-19T19:32:56Z
 lastmod: 2021-01-19T20:32:56Z
 draft: false
 description: |
-  I have decided to start a blog to document my "side" projects!
+  I have decided to start a personal blog using Hugo!
 featuredImage:
 tags:
   - hugo

@@ -252,13 +252,13 @@ enableEmoji = true
     # Header title config
     [params.header.title]
       # URL of the LOGO
-      # LOGO 的 URL
       logo = ""
       # title name
       name = "Dan Kolepp"
 
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = "<i class='fas fa-pencil-alt fa-fw'></i>"
+      #pre = "<i class='fas fa-terminal fa-fw'></i>"
+      pre = "<i class='far fa-lightbulb'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
@@ -470,7 +470,7 @@ enableEmoji = true
     # 第三方库配置
     [params.page.library]
       [params.page.library.css]
-        # someCSS = "some.css"
+        someCSS = "custom.css"
         # located in "assets/" 位于 "assets/"
         # Or 或者
         # someCSS = "https://cdn.example.com/some.css"
