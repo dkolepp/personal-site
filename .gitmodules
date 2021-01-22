@@ -1,9 +1,1 @@
-[submodule "themes/creative-portfolio"]
-	path = themes/creative-portfolio
-	url = https://github.com/kishaningithub/hugo-creative-portfolio-theme.git
-[submodule "themes/syna"]
-	path = themes/syna
-	url = https://github.com/okkur/syna
-[submodule "themes/uBlogger"]
-	path = themes/uBlogger
-	url = https://github.com/uPagge/uBlogger
+
