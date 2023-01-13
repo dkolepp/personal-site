@@ -304,8 +304,8 @@ enableEmoji = true
   [params.comment]
     enable = false
     [params.comment.remark42]
-      enable = true
-      host = "https://comments.upagge.ru"
+      enable = false
+      host = ""
       site = "documentation"
       locale = "en"
     # Disqus comment config (https://disqus.com/)
